@@ -1,0 +1,35 @@
+{
+  "name": "@pigalle/routes.base",
+  "version": "0.1.0-alpha1",
+  "description": "A base class for routing used by the Pigalle framework. ",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigalle-io/pigalle.routes.base.git"
+  },
+  "keywords": [
+    "node",
+    "pigalle",
+    "pigalle.io",
+    "microservice",
+    "route",
+    "routing",
+    "base"
+  ],
+  "author": "SAS 9 Février <contact@9fevrier.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pigalle-io/pigalle.routes.base/issues"
+  },
+  "homepage": "https://github.com/pigalle-io/pigalle.routes.base#readme",
+  "dependencies": {
+    "@pigalle/core.base.class": "0.1.0-alpha2"
+  }
+}
