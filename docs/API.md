@@ -14,16 +14,6 @@ A base class for routing.
 
 **Kind**: global class  
 **Access**: public  
-<a name="new_RouteBase_new"></a>
-
-#### new RouteBase(...args)
-Create a new instance of {RouteBase}.
-
-
-| Param |
-| --- |
-| ...args | 
-
 ## <a name="license"> License
 
 >
@@ -52,6 +42,6 @@ Create a new instance of {RouteBase}.
 
 ***
 
-_Documentation generated on Thu, 22 Feb 2018 10:55:04 GMT_
+_Documentation generated on Thu, 22 Feb 2018 10:59:08 GMT_
 
 **Copyright &copy; 2018 [SAS 9 Février](https://9fevrier.com/)**
