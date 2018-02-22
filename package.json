@@ -1,8 +1,8 @@
 {
-  "name": "@pigalle/routes.base",
+  "name": "@pigalle/entities.route",
   "version": "0.1.0",
   "description": "A base class for routing used by the Pigalle framework. ",
-  "main": "lib/route-base.js",
+  "main": "lib/route-entity.js",
   "scripts": {
     "test": "nyc mocha",
     "lint": "node ./node_modules/standard/bin/cmd.js --fix",
@@ -60,6 +60,6 @@
     "github-uri-https-parser": "^0.1.1-alpha1"
   },
   "dependencies": {
-    "lodash": "^4.17.5"
+    "@pigalle/entities.base": "*"
   }
 }
