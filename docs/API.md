@@ -7,13 +7,35 @@ A base class for routing used by the Pigalle framework.
 ---
 ## API
 
-<a name="RouteBase"></a>
+<a name="module_route-entity"></a>
 
-### RouteBase
-A base class for routing.
+### route-entity
+An entity to manage route using the Pigalle framework.
 
-**Kind**: global class  
+**Example**  
+```js
+const {RouteEntity} = require('@pigalle/entities.route')
+
+const routeEntity = RouteEntity.factory()
+```
+
+* [route-entity](#module_route-entity)
+    * [~RouteEntity](#module_route-entity..RouteEntity)
+    * [~PIGALLE_TYPE](#module_route-entity..PIGALLE_TYPE) : <code>string</code>
+
+<a name="module_route-entity..RouteEntity"></a>
+
+#### route-entity~RouteEntity
+A base entity for route.
+
+**Kind**: inner class of [<code>route-entity</code>](#module_route-entity)  
 **Access**: public  
+<a name="module_route-entity..PIGALLE_TYPE"></a>
+
+#### route-entity~PIGALLE_TYPE : <code>string</code>
+The Pigalle type of the current entity.
+
+**Kind**: inner constant of [<code>route-entity</code>](#module_route-entity)  
 ## <a name="license"> License
 
 >
@@ -42,6 +64,6 @@ A base class for routing.
 
 ***
 
-_Documentation generated on Thu, 22 Feb 2018 10:59:08 GMT_
+_Documentation generated on Thu, 22 Feb 2018 17:02:37 GMT_
 
 **Copyright &copy; 2018 [SAS 9 Février](https://9fevrier.com/)**

@@ -1,7 +1,7 @@
-[npm-badge]: https://img.shields.io/npm/v/@pigalle/routes.base.svg
-[npm-badge-url]: https://www.npmjs.com/package/@pigalle/routes.base
-[npm-downloads-badge]: https://img.shields.io/npm/dt/@pigalle/routes.base.svg
-[npm-downloads-url]: https://npmjs.org/package/@pigalle/routes.base
+[npm-badge]: https://img.shields.io/npm/v/@pigalle/entities.route.svg
+[npm-badge-url]: https://www.npmjs.com/package/@pigalle/entities.route
+[npm-downloads-badge]: https://img.shields.io/npm/dt/@pigalle/entities.route.svg
+[npm-downloads-url]: https://npmjs.org/package/@pigalle/entities.route
 [travis-badge]: https://img.shields.io/travis/pigalle-io/pigalle.routes.base/master.svg?label=TravisCI
 [travis-badge-url]: https://travis-ci.org/pigalle-io/pigalle.routes.base
 [circle-badge]: https://circleci.com/gh/pigalle-io/pigalle.routes.base/tree/master.svg?style=svg&circle-token=
@@ -12,7 +12,7 @@
 [codeclimate-badge-url]: https://codeclimate.com/github/pigalle-io/pigalle.routes.base
 [ember-observer-badge]: http://emberobserver.com/badges/pigalle.routes.base.svg
 [ember-observer-badge-url]: http://emberobserver.com/addons/pigalle.routes.base
-[license-badge]: https://img.shields.io/npm/l/@pigalle/routes.base.svg
+[license-badge]: https://img.shields.io/npm/l/@pigalle/entities.route.svg
 [license-badge-url]: LICENSE.md
 [dependencies-badge]: https://img.shields.io/david/pigalle-io/pigalle.routes.base.svg
 [dependencies-badge-url]: https://david-dm.org/pigalle-io/pigalle.routes.base
@@ -72,16 +72,15 @@ A base class for routing used by the Pigalle framework.
 
 ```javascript
 
-const {githubUriHttpsParser} = require('github-uri-https-parser');
+const {RouteEntity} = require('@pigalle/entities.route')
 
-githubUriHttpsParser('https://github.com/9fv/node-github-uri-https-parser');
-# > {"username": "9fv", "repository": "node-github-uri-https-parser"}
+const routeEntity = RouteEntity.factory()
 
 ```
 
 ## <a name="installation"> Installation
 
-    npm install @pigalle/routes.base
+    npm install @pigalle/entities.route
 
 ## <a name="api-reference"> API Reference
 
@@ -136,6 +135,9 @@ Please refer to project's style guidelines and guidelines for submitting patches
 
 ## <a name="credits"> Credits
 
+### Thanks to the developers of the very useful dependencies...
+
+* [@pigalle/entities.base](https://github.com/pigalle-io/pigalle.entities.base) by [pigalle.io](https://github.com/pigalle-io/)
 
 ## <a name="history"> History
 
