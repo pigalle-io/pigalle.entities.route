@@ -64,6 +64,6 @@ The Pigalle type of the current entity.
 
 ***
 
-_Documentation generated on Thu, 22 Feb 2018 17:02:37 GMT_
+_Documentation generated on Mon, 26 Feb 2018 10:24:40 GMT_
 
 **Copyright &copy; 2018 [SAS 9 Février](https://9fevrier.com/)**
