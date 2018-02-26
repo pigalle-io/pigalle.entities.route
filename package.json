@@ -1,6 +1,6 @@
 {
   "name": "@pigalle/entities.route",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A base class for routing used by the Pigalle framework. ",
   "main": "lib/route-entity.js",
   "scripts": {
@@ -60,6 +60,6 @@
     "github-uri-https-parser": "^0.1.1-alpha1"
   },
   "dependencies": {
-    "@pigalle/entities.base": "*"
+    "@pigalle/entities.base": "^0.1.3"
   }
 }
